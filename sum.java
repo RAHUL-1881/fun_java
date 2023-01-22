@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class sum {
-    public static void main(String... h) {
+class sumation {
+    public static void main(String[] args)
+
+    {
         Scanner hehe = new Scanner(System.in);
         System.out.println("enter two integers to find the sum");
         Integer a = hehe.nextInt();
