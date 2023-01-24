@@ -5,6 +5,7 @@ public class user_input {
         Scanner haha = new Scanner(System.in); // creating scanner object;
         System.out.println("enter the string");
         String name = haha.nextLine();// taking user input;
+        haha.close();
         System.out.println("user name is :" + name);
     }
 }
