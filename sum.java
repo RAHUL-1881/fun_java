@@ -8,6 +8,7 @@ class sumation {
         System.out.println("enter two integers to find the sum");
         Integer a = hehe.nextInt();
         Integer b = hehe.nextInt();
+        hehe.close();
         Integer c = a + b;
         System.out.println("the sum of the two numbers is : " + c);
 
