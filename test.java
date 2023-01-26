@@ -2,6 +2,25 @@ import java.util.*;
 
 public class test {
     public static void main(String[] args) {
+<<<<<<< HEAD
+        Scanner h = new Scanner(System.in);
+        int X = h.nextInt();
+        int Y = h.nextInt();
+        int N = h.nextInt();
+        h.close();
+        int count = 0;
+        for (int i = X; i <= Y; i++) {
+            if (i % N == 0) {
+                System.out.print(i + " ");
+                count++;
+            }
+        }
+        if (count == 0) {
+            System.out.println("NO OUTPUT");
+        }
+    }
+}
+=======
         Scanner hehe = new Scanner(System.in).useLocale(Locale.US);
         ;
         long x = hehe.nextInt();
@@ -23,3 +42,4 @@ public class test {
         }
     }
 }
+>>>>>>> master
